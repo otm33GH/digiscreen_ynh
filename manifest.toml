@@ -87,3 +87,6 @@ ram.runtime = "50M"
 
     [resources.nodejs]
     version = "22"
+
+    [resources.composer]
+    version = "2.9.3"
