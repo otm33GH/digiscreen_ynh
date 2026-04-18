@@ -24,7 +24,7 @@ pushd "$install_dir"
     ynh_hide_warnings ynh_exec_as_app sed -i "s/'safari12'/'safari14'/g" "$install_dir/vite.config.mjs"
     ynh_hide_warnings ynh_exec_as_app npm install
     ynh_hide_warnings ynh_exec_as_app npm update
-    ynh_hide_warnings ynh_exec_as_app composer install
+    ynh_hide_warnings ynh_composer_exec install
     ynh_hide_warnings ynh_exec_as_app npm run build
 popd
 
