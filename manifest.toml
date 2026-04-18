@@ -82,12 +82,8 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = [
-        "mariadb-server",
-        "php8.2-fpm",
+        "php8.4-fpm",
     ]
-
-    [resources.database]
-    type = "mysql"
 
     [resources.nodejs]
     version = "22"
